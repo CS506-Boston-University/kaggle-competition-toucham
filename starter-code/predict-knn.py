@@ -23,6 +23,8 @@ X_train_processed = X_train.drop(columns=['Id', 'ProductId', 'UserId', 'Text', '
 X_test_processed = X_test.drop(columns=['Id', 'ProductId', 'UserId', 'Text', 'Summary'])
 X_submission_processed = X_submission.drop(columns=['Id', 'ProductId', 'UserId', 'Text', 'Summary', 'Score'])
 
+print(X_train_processed)
+
 # Learn the model
 model = KNeighborsClassifier(n_neighbors=3).fit(X_train_processed, Y_train)
 
