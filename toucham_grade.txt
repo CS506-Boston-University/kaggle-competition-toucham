@@ -1,0 +1,6 @@
+
+SCORE: 93/100
+
+NOTES: 
+- Great usage of different techniques! 
+- Points were lost in feature extraction (would have been interesting to analyze types of punctuation, capitalization, etc.).
